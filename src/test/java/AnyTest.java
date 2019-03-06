@@ -10,4 +10,12 @@ public class AnyTest {
 
     assertEquals(6, any.getA().intValue());
   }
+
+  @Test
+  public void shouldReturnAAgain() {
+    Any any = new Any(5);
+
+    assertEquals(5, any.getA().intValue());
+  }
+
 }
