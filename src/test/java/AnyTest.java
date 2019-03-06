@@ -8,7 +8,7 @@ public class AnyTest {
   public void shouldReturnA() {
     Any any = new Any(5);
 
-    assertEquals(6, any.getA().intValue());
+    assertEquals(5, any.getA().intValue());
   }
 
   @Test
